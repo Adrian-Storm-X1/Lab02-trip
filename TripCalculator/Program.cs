@@ -1,6 +1,13 @@
-﻿using System.Numerics;
+﻿/*
+ *Name: Adrian Aguero
+ *Course: CSCI 1250, Section 001
+ *Asssignment: Lab 02, Trip Calculator
+ *Date: September 23, 2026
+ *Description: Calculates the fuel, food, and work hours behind one road trip.
+*/
+using System.Numerics;
 using System.Security.Cryptography;
-
+// This Calculates the fuel cost
 Console.WriteLine("=== Part 1: Road Trip ===");
 Console.WriteLine("");
 Console.Write("How many miles is the trip? ");
@@ -25,7 +32,7 @@ Console.WriteLine("Fuel cost: " + fuelCost.ToString("C"));
 Console.WriteLine("");
 
 
-// This is the start of part 2
+// This calculates the pizza cost
 Console.WriteLine("=== Part 2: Pizza Party ===");
 Console.WriteLine("");
 
@@ -59,7 +66,7 @@ Console.WriteLine("");
 Console.WriteLine("Pizza cost: " + TotalPizzaCost.ToString("C"));Console.WriteLine("");
 
 
-//This is the Start of part 3
+//This calculates the money you have
 Console.WriteLine("=== Part 3: Paycheck ===");
 Console.WriteLine("");
 
@@ -88,7 +95,7 @@ Console.WriteLine("");
 Console.WriteLine("Take home pay: " + takehome.ToString("C"));
 Console.WriteLine("");
 
-//This is the start of part 4
+//This gives the totals for all previous parts
 Console.WriteLine("=== Part 4: The Whole Trip ===");
 Console.WriteLine("");
 
