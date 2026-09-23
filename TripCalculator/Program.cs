@@ -37,7 +37,7 @@ Console.WriteLine("=== Part 2: Pizza Party ===");
 Console.WriteLine("");
 
 
-const int pizzaslices = 8;
+const double pizzaslices = 8.00;
 
 Console.Write("How many people are coming? ");
 int people = Convert.ToInt32(Console.ReadLine());
@@ -51,9 +51,9 @@ Console.Write("What is the cost per pizza? ");
 double pricePerPizza = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("");
 
-int totalSlices = pizzaslices * pizza;
+double totalSlices = pizzaslices * pizza;
 
-int slicesperPerson = totalSlices / people;
+double slicesperPerson = totalSlices / people;
 
 double TotalPizzaCost = pizza * pricePerPizza;
 
